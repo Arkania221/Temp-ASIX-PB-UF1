@@ -1,3 +1,6 @@
+SEPARADORES = (".", ",", ";", ":")
+
+texto = input(IntroduceTexto:)
 for caracter in SEPARADORES:
         texto = texto.replace(caracter, '')
 
