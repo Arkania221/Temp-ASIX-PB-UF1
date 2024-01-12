@@ -1,8 +1,21 @@
 #Definir dos listas con nombres aleatorios
+#Primera lista min 10n ; Segunda lista min 5n max 8n
+#La semilla "cambia" cada que se usa
 
-semilla = 200
+lista1 = []
 
-num_aleatorio = ((semilla * 5678) + 12345) ½ 100
+lista2 = []
 
-print(num_aleatorio)
+semilla =  375
+
+
+while len(lista1) < 10:
+
+	num_aleatorio = ((semilla * 5764) + 34256) % 100
+
+	lista1.append(num_aleatorio)
+
+	semilla = num_aleatorio
+
+print(lista1)
 
