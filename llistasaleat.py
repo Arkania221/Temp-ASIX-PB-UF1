@@ -17,5 +17,6 @@ while len(lista1) < 10:
 
 	semilla = num_aleatorio
 
-print(lista1)
 
+print(lista1)
+print(lista2)
